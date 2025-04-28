@@ -22,8 +22,7 @@ class RoutePolylines {
       return LatLng(coord['latitude'], coord['longitude']);
     }).toList();
 
-    String apiKey =
-        "AIzaSyD_xQJwsP5WZGsFYihJCK3qCzOyevmoku0"; // API keyinizi buraya ekleyin
+    String apiKey = "MY_APİ_KEY"; // API keyinizi buraya ekleyin
 
     String avoid = "";
     if (mode == "driving") {
